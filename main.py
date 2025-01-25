@@ -19,11 +19,11 @@ while 1 < 2 :
 			print('x2 = ', x2)
 		if q_1 == 'no' :
 			print('okay...')
-	if delta == 0 :
+	elif delta == 0 :
 		q_2 = str(input('do u want to see the solutions (yes/no) => '))
 		if q_2 == 'yes' :
 			print('x0 = ', x0)
 		if q_2 == 'no' :
 			print('okay...')
-	if delta < 0 :
+	else :
 		print('there is no solution')
